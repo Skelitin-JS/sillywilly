@@ -7,7 +7,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 
-client.user.setActivity('*commands', { type: "STREAMING"})
+
 
 if __name__ == '__main__':
     
